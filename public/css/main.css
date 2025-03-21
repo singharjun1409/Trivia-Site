@@ -1,0 +1,110 @@
+/* Add all your CSS here */
+head{
+    background-color: lightcoral;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center; 
+    padding: 10px;
+    background-color: lightcoral;
+}
+
+h1 a{
+    color:black;
+}
+form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    padding: 40px;
+    width: 90%;
+  }
+
+
+input[name = answer]{
+    width: 90%;
+    height: 30px;
+    color: grey;
+    margin-top: 10px;
+    
+}
+
+input[name = search]{
+    width: 80%;
+    height: 30px;
+}
+input[type = submit]{
+    height: 30px;
+    margin-top: 10px;
+}
+
+input[name = question]{
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+input[name = genre]{
+    width: 90%;
+    height: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+input[name = answers]{
+    width: 90%;
+    height: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+ ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ }
+
+li {
+   float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: lightcoral;
+}
+
+.active {
+  background-color: lightcoral;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+td {
+    text-align: left;
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+th {
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+
+
+
+
